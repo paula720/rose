@@ -1,0 +1,136 @@
+/*
+
+Tooplate 2118 Costa Coffee
+
+
+
+    Background color:       #2f97f1
+    Title color:            #996633
+    Text color:             #666666
+    Text Dark color:        #333333                                                                           
+    Table Heading color:    #C4CDD6
+    Table Alternate color:  #e5e8ed 
+*/
+
+body {
+  background-color: #bb9977;
+  color: #000000;
+  font-family: "serif";
+  font-size: 19px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.tm-container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tm-main-content { background-color: #ffffff; }
+
+#tm-intro-img {
+  background-position: center;
+  background-size: cover;
+  min-height: 425px;
+  background-image: url(../img/Costa-cafe-01.jpg);
+}
+
+.tm-text-white { color: rgb(255, 255, 255); }
+
+.tm-page-header-container { text-align: center; }
+
+.tm-page-header {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.tm-page-icon {padding: 15px;}
+
+.tm-section-header {
+  color: #693400;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;}
+
+td {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.tm-text-left { text-align: left; }
+
+th {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr:nth-child(odd) { background-color: #f5cda5; }
+
+tr.tm-tr-header {
+  background-color: #996633;
+  height: 45px;
+}
+
+.tm-section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.tm-section-small {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.tm-mb-0 { margin-bottom: 0; }
+img { max-width: 100%; }
+figure { margin: 0; }
+figcaption { text-align: center; }
+
+figcaption span {
+  display: block;
+  color: #333333;
+  font-size: 18px;
+}
+
+.tm-item-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tm-special-items {
+  display: flex;
+  margin-left: Center;
+  margin-right: Center;
+}
+
+.tm-special-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+hr {
+  width: 60%;
+  border: 0.5px solid #ccc;
+}
